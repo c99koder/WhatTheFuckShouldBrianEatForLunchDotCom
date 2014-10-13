@@ -7,7 +7,7 @@
 <h1>Brian should eat at:</h1>
 <?php
 $things = array(
-"Fucking Subway", "Fucking Chipotle", "Fucking Qdoba", "Fucking Pancho's Burritos", "Fucking China Wok", "Fucking Panera Bread", "Fucking Italian Connection", "Fucking Empanada Mania","Fucking 5 Guys (Gay)", "Bobby Fucking Flay's Burgers"
+"Fucking Chipotle", "Fucking Qdoba", "Fucking Pancho's Burritos", "Fucking China Wok", "Fucking Panera Bread", "Fucking Italian Connection", "Fucking Empanada Mania","Fucking 5 Guys (Gay)", "Bobby Fucking Flay's Burgers", "Celtic Fucking Kitchen", "Fucking Michael's", "Jolly Fucking Nick's", "The Fucking Thai Place"
 );
 
 echo "<h2>" . $things[rand()%count($things)] . "</h2>";
