@@ -1,0 +1,32 @@
+{
+  "versionLabel": "1.0.0",
+  "agentInfo": {
+    "languageCode": "en-US",
+    "projectId": "...",
+    "voiceName": "male_1"
+  },
+  "actions": [
+{
+    "description": "Default action",
+    "initial_trigger": {
+      "intent": "assistant.intent.action.MAIN",
+	  "queryPatterns": [
+		{"queryPattern": "what should I have for lunch"},
+		{"queryPattern": "what should I eat"},
+  		{"queryPattern": "I'm hungry"}
+  		]
+    },
+    "inDialogTriggers": [
+      {
+        "intent": "yesno.input",
+        "queryPatterns": [
+          {"query_pattern": "$SchemaOrg_YesNo"}
+        ]
+      }
+    ],
+    "http_execution": {
+      "url": "..."
+    }
+  }
+  ]
+}
