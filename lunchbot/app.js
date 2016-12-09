@@ -28,6 +28,7 @@ app.post('/', function (request, response) {
     if (assistant.getRawInput() === 'no') {
       assistant.tell('Have a nice lunch!');
     } else {
+	   assistant.tell('Fuck you. Ok...');
 	  mainIntent(assistant);
     }
   }
